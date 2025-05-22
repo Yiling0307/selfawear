@@ -10,8 +10,12 @@ document.querySelector('header .content').innerHTML = `
   <div class="menu pink">SALE</div>
 
   <div class="user-info">
-    <img src="./assets/search-normal.png" width="24px" alt="">
+    <img src="./assets/search-normal.png" width="24px" onclick="toSearchPage()" alt="">
     <img src="./assets/car.png" width="24px" alt="">
     <img src="./assets/avatar.png" width="24px" alt="">
   </div>
 `
+
+function toSearchPage() {
+  window.location.href = './search.html'
+}
