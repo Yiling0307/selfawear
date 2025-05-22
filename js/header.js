@@ -1,5 +1,5 @@
 document.querySelector('header .content').innerHTML = `
-  <img src="./assets/logo.png" width="145px" style="margin-right: 41px;" alt="">
+  <img src="./assets/logo.png" width="145px" class="logo" alt="" onclick="toIndexPage()">
   <div class="menu">NEW RELEASES</div>
   <div class="menu">GROUNDING</div>
   <div class="menu">ACTIVEWEAR</div>
@@ -18,4 +18,8 @@ document.querySelector('header .content').innerHTML = `
 
 function toSearchPage() {
   window.location.href = './search.html'
+}
+
+function toIndexPage() {
+  window.location.href = './index.html'
 }

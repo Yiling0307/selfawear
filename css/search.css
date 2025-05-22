@@ -3,3 +3,114 @@ main {
   width: 1200px;
   margin: 0 auto;
 }
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.input-wrap {
+  width: 1006px;
+  height: 60px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.input-wrap input {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-result {
+  display: flex;
+}
+
+.filter {
+  width: 339px;
+}
+
+.filter .filter-title {
+  margin-top: 40px;
+  font-size: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 28px;
+}
+
+.filter .checkbox input {
+  margin-right: 4px;
+}
+
+.filter .checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.result {
+  flex: 1;
+  padding-left: 65px;
+}
+
+.result-head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.goods-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.goods-list .goods-item {
+  width: 240px;
+  margin-top: 20px;
+}
+
+.goods-list .goods-item .name {
+  width: 240px;
+  margin: 16px 0 8px;
+  font-size: 16px;
+  /* 换行 */
+  word-break: word-break;
+}
+
+.goods-list .goods-item .sale {
+  color: #EA580C;
+  font-size: 12px;
+}
+
+.goods-list .goods-item .origin {
+  color: #9CA3AF;
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.goods-list .goods-item .price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.score img {
+  margin-right: 5px;
+}
