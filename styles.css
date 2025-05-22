@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   font-size: 14px;
-  background-color: #f5f5f5;
+  background-color: #fff;
   color: #000000;
 }
 
@@ -17,6 +23,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 9;
 }
 
 header .content {
@@ -51,10 +58,3 @@ header .user-info img {
 .pink {
   color: #FF6473;
 }
-
-main {
-  width: 1440px;
-  margin: 0 auto;
-  padding-top: 70px;
-}
-
