@@ -78,6 +78,7 @@ main {
 .goods-list .goods-item {
   width: 240px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .goods-list .goods-item .name {

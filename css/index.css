@@ -184,6 +184,7 @@ main {
 
 .sale-box .goods-list .goods-item {
   text-align: center;
+  cursor: pointer;
 }
 
 .sale-box .goods-list .goods-item .name {
@@ -235,6 +236,7 @@ main {
 
 .main-goods-list .right .goods-item {
   width: 240px;
+  cursor: pointer;
 }
 
 .main-goods-list .right .goods-item .name {

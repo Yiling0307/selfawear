@@ -17,9 +17,9 @@ document.querySelector('header .content').innerHTML = `
 `
 
 function toSearchPage() {
-  window.location.href = './search.html'
+  window.location.href = '/search.html'
 }
 
 function toIndexPage() {
-  window.location.href = './index.html'
+  window.location.href = '/index.html'
 }
