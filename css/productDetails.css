@@ -173,24 +173,6 @@ header {
   margin-right: 28px;
 }
 
-.num-input {
-  display: flex;
-  align-items: center;
-  width: 86px;
-  height: 32px;
-  border: 1px solid #9CA3AF;
-  border-radius: 4px;
-  font-size: 12px;
-  padding: 0 10px;
-}
-
-.num-input input {
-  width: 50px;
-  padding: 0 8px;
-  border: none;
-  text-align: center;
-}
-
 .add-button {
   background-color: #FF6767;
   color: #fff;
@@ -292,7 +274,6 @@ header {
   width: 240px;
   margin: 16px 0 8px;
   font-size: 16px;
-  /* 换行 */
   word-break: word-break;
 }
 
