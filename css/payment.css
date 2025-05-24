@@ -1,0 +1,112 @@
+main {
+  padding: 110px 32px 0;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.pink-bar {
+  background-color: #F19FB9;
+  height: 40px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.pink-bar .content {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pink-bar .content div {
+  color: #fff;
+  font-size: 17px;
+}
+
+.pink-bar .content .mini {
+  font-size: 14px;
+}
+
+.pink-bar .content .time {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #F19FB9;
+}
+
+.pink-bar .content .time-wrap {
+  width: 130px;
+  justify-content: space-between;
+  margin: 0 32px;
+}
+
+header {
+  top: 40px;
+}
+
+main>.left {
+  width: 807px;
+  height: 790px;
+  padding: 32px;
+  z-index: 1;
+  box-shadow: 4px 0 12px 0 rgba(162, 162, 162, 0.2);
+
+}
+
+.detail-card {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.detail-card hr {
+  margin: 17px 0 20px;
+}
+
+.detail-card .amy {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px;
+}
+
+.change-btn {
+  width: 93px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #F59E0B;
+  background-color: #fff;
+  color: #F59E0B;
+  font-size: 14px;
+}
+
+.pay-list-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 55px 0 24px;
+}
+
+main>.right {
+  flex: 1;
+  display: flex;
+  padding: 52px 30px 0 0;
+}
+
+.right .sss {
+  margin: 26px 0;
+}
+
+.pay-button {
+  background-color: #FF6767;
+  width: 100%;
+  height: 46px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}

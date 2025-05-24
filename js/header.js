@@ -47,7 +47,7 @@ let bagPanel = `
       <span>$147.00</span>
     </div>
     <div class="tips">Shipping, taxes, and discount codes calculated at checkout.</div>
-    <div class="check-button flex-center">Check out</div>
+    <div class="check-button flex-center" onclick="toPayment()">Check out</div>
 
   </div>
 `
@@ -69,10 +69,13 @@ function toIndexPage() {
 function showBagPanel() {
   document.querySelector('.bag-panel').classList.add('open')
   document.querySelector('.bag-mask').style.display = 'block'
-  console.log(123)
 }
 
 function hideBagPanel() {
   document.querySelector('.bag-panel').classList.remove('open')
   document.querySelector('.bag-mask').style.display = 'none'
+}
+
+function toPayment() {
+  window.location.href = '/payment.html'
 }

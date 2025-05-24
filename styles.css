@@ -4,10 +4,49 @@
   box-sizing: border-box;
 }
 
+hr {
+  border: 1px solid #E6E6E6;
+}
+
+.flex {
+  display: flex;
+}
+
 .flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fw {
+  font-weight: bold;
 }
 
 body {
@@ -133,6 +172,7 @@ header .user-info img {
   color: #fff;
   font-size: 17px;
   margin-top: 21px;
+  cursor: pointer;
 }
 
 .bag-panel .product-item {
