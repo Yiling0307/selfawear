@@ -1,0 +1,52 @@
+main {
+  padding: 110px 32px 0;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.pink-bar {
+  background-color: #F19FB9;
+  height: 40px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.pink-bar .content {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pink-bar .content div {
+  color: #fff;
+  font-size: 17px;
+}
+
+.pink-bar .content .mini {
+  font-size: 14px;
+}
+
+.pink-bar .content .time {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #F19FB9;
+}
+
+.pink-bar .content .time-wrap {
+  width: 130px;
+  justify-content: space-between;
+  margin: 0 32px;
+}
+
+header {
+  top: 40px;
+}
