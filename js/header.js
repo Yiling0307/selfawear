@@ -79,3 +79,31 @@ function hideBagPanel() {
 function toPayment() {
   window.location.href = '/payment.html'
 }
+// Use matchMedia to determine the width
+const mobileMediaQuery = window.matchMedia('(max-width: 768px)');
+
+function handleMobileMediaChange(event) {
+  if (event.matches) {
+    toMobilePage();
+  } else {
+    toPCPage();
+  }
+}
+// Listen for window size change events
+mobileMediaQuery.addEventListener('change', handleMobileMediaChange);
+// Perform a check when the page loads
+if (mobileMediaQuery.matches) {
+  toMobilePage();
+}
+
+function toMobilePage() {
+  const pathArray = window.location.pathname.split('/');
+  const currentPage = pathArray[pathArray.length - 1];
+  window.location.href = `/mobile/${currentPage}`;
+}
+
+function toPCPage() {
+  const pathArray = window.location.pathname.split('/');
+  const currentPage = pathArray[pathArray.length - 1];
+  window.location.href = `/${currentPage}`;
+}
