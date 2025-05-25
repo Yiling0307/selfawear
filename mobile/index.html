@@ -13,11 +13,225 @@
 
 <body>
 
-  <header>
-    
-  </header>
+  <header></header>
 
-  <main>Home</main>
+  <main>
+
+    <div class="search-wrap">
+      <div class="search-input">
+        <img src="./assets/search-normal.png" width="24px" alt="">
+        <input type="text" placeholder="Search Anything...">
+      </div>
+    </div>
+
+    <div class="categories">
+      <div class="flex-space-between">
+        <span class="fw">Categories</span>
+        <span class="fs12 gray">View All -></span>
+      </div>
+
+      <div class="categories-list">
+        <div class="categories-item">
+          <img src="./assets/index/c1.png" width="48px" alt="">
+          <span class="fs12">New</span>
+        </div>
+        <div class="categories-item">
+          <img src="./assets/index/c2.png" width="48px" alt="">
+          <span class="fs12">Clothing</span>
+        </div>
+        <div class="categories-item">
+          <img src="./assets/index/c3.png" width="48px" alt="">
+          <span class="fs12">Jwewlry</span>
+        </div>
+        <div class="categories-item">
+          <img src="./assets/index/c4.png" width="48px" alt="">
+          <span class="fs12">Accessories</span>
+        </div>
+        <div class="categories-item">
+          <img src="./assets/index/c1.png" width="48px" alt="">
+          <span class="fs12">New</span>
+        </div>
+        <div class="categories-item">
+          <img src="./assets/index/c2.png" width="48px" alt="">
+          <span class="fs12">Clothing</span>
+        </div>
+        <div class="categories-item">
+          <img src="./assets/index/c3.png" width="48px" alt="">
+          <span class="fs12">Jwewlry</span>
+        </div>
+        <div class="categories-item">
+          <img src="./assets/index/c4.png" width="48px" alt="">
+          <span class="fs12">Accessories</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-wrap">
+      <img src="./assets/index/s1.png" width="100%" alt="">
+      <div class="dot-list">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+
+    <!-- <div class="sale-wrap">
+      <div>INTERNATIONAL WOMAN'S DAY SALE</div>
+      <div>EXTRA 25% OFF STOREWIDE WITH CODE: IWD25</div>
+    </div> -->
+
+    <div class="sale-box">
+      <div class="title">INTERNATIONAL WOMAN'S DAY SALE</div>
+      <div class="desc">EXTRA 25% OFF STOREWIDE WITH CODE: IWD25</div>
+      <div class="viewall-wrap">
+        <div class="count-list">
+          <div>
+            <span class="count">11</span>
+            <span class="name">HRS</span>
+          </div>
+          <div>
+            <span class="count">15</span>
+            <span class="name">MIN</span>
+          </div>
+          <div>
+            <span class="count">04</span>
+            <span class="name">SEC</span>
+          </div>
+        </div>
+        <div class="viewall">View All -></div>
+      </div>
+      <div class="goods-list">
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="./assets/index/Frame 26.png" width="146px" alt="">
+          <div class="name">T-shirt</div>
+          <div class="desc">Upto 40% OFF</div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="./assets/index/Frame 27.png" width="146px" alt="">
+          <div class="name">Bracelet</div>
+          <div class="desc">Upto 40% OFF</div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="./assets/index/Frame 28.png" width="146px" alt="">
+          <div class="name">Ring</div>
+          <div class="desc">Upto 40% OFF</div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="./assets/index/Frame 29.png" width="146px" alt="">
+          <div class="name">Bracelet</div>
+          <div class="desc">Upto 40% OFF</div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="hot-selling">
+        <span class="fw">Hot Selling</span>
+        <span class="fs12 gray">View All -></span>
+      </div>
+
+      <div class="main-goods-list">
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (1).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (2).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (3).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (4).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (5).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (6).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-item">
+      <img src="./assets/index/home-2.png" width="24px" alt="">
+      <div class="gray">Home</div>
+    </div>
+    <div class="footer-item">
+      <img src="./assets//index/element-3.png" width="24px" alt="">
+      <div class="gray">Categories</div>
+    </div>
+    <div class="footer-item">
+      <img src="./assets/index/clock.png" width="24px" alt="">
+      <div class="gray">Orders</div>
+    </div>
+    <div class="footer-item">
+      <img src="./assets//index/profile-circle.png" width="24px" alt="">
+      <div class="gray">Profile</div>
+    </div>
+  </footer>
 
   <script src="./js/header.js"></script>
 </body>
