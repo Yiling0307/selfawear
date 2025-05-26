@@ -1,0 +1,27 @@
+main {
+  padding: 44px 0 70px;
+}
+
+.search-wrap {
+  padding: 16px 20px;
+}
+
+.search-wrap .search-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  padding: 0 16px;
+  height: 48px;
+}
+
+.search-wrap .search-input img {
+  margin-right: 12px;
+}
+
+.search-wrap .search-input input {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  flex: 1;
+}
