@@ -23,10 +23,168 @@
       </div>
     </div>
 
-    Search
+    <div>
+      <div class="hot-selling">
+        <span class="fw">Result (8)</span>
+      </div>
+
+      <div class="main-goods-list">
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (1).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (2).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (3).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (4).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (5).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+        <div class="goods-item" onclick="toProductPage()">
+          <img src="../assets/index/Frame 28 (6).png" width="100%" alt="">
+          <div class="name">A KINDER WORLD T-SHIRT BLACK</div>
+          <div style="display: flex;align-items: center;">
+            <div class="price">$68</div>
+            <div class="origin">$136</div>
+            <div class="sale">50% OFF</div>
+          </div>
+          <div class="score">
+            <img src="../assets/index/Rating.png" width="16px" alt="">
+            <span>4.8(692)</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
+  <footer>
+    <div class="footer-item" onclick="showPanel('filter')">
+      <img src="./assets/search/setting-4.png" width="24px" alt="">
+      <div>Filter</div>
+    </div>
+    <div class="footer-item" onclick="showPanel('sort')">
+      <img src="./assets/search/sort.png" width="24px" alt="">
+      <div>Sort By</div>
+    </div>
+  </footer>
+
+  <div class="mask" onclick="closeAllPanel()"></div>
+
+  <div class="slide-panel filter">
+    <div class="title">
+      <span class="fw">Filter</span>
+      <span onclick="closeAllPanel()">X</span>
+    </div>
+    <div class="body checkboxlist">
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>2XS</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>XS</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>S</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>M</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>L</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>XL</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>2XL</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>3XL</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>4XL</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-panel sort">
+    <div class="title">
+      <span class="fw">Sort</span>
+      <span onclick="closeAllPanel()">X</span>
+    </div>
+    <div class="body sortlist">
+      <div>Price - High to Low</div>
+      <div>Price - Low to High</div>
+      <div>Popularity</div>
+      <div>Discount</div>
+      <div>Customer Rating</div>
+    </div>
+  </div>
+
   <script src="./js/header.js"></script>
+  <script src="./js/search.js"></script>
 </body>
 
 </html>
