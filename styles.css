@@ -28,8 +28,25 @@ hr {
   text-decoration: line-through;
 }
 
-.mb12 {
-  margin-bottom: 12px;
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+
+.mr8 {
+  margin-right: 8px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
 }
 
 .mt12 {

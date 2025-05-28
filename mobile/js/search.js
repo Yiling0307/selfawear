@@ -10,3 +10,7 @@ function closeAllPanel() {
     all[i].classList.remove('show')
   }
 }
+
+function toProductPage() {
+  window.location.href = "/mobile/productDetails.html";
+}
