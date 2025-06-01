@@ -11,3 +11,108 @@ header {
   box-shadow: 0 6px 12px 0 rgba(75, 85, 99, 0.06);
   background-color: #fff;
 }
+
+.bag-mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 111, 111, 0.3);
+  z-index: 7;
+}
+
+.bag-panel {
+  position: fixed;
+  top: -430px;
+  right: 0;
+  width: 100%;
+  left: 0;
+  height: 430px;
+  background-color: #fff;
+  box-shadow: -4px 0 12px 0 rgba(137, 137, 137, 0.2);
+  z-index: 8;
+  transition: top 0.3s ease-in-out;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bag-panel.open {
+  top: 0;
+}
+
+.bag-panel .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #E6E6E6;
+  font-weight: bold;
+}
+
+.product-list {
+  flex: 1;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.bag-panel .total-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0 23px;
+}
+
+.bag-panel .tips {
+  font-size: 16px;
+  color: #818181;
+}
+
+.check-button {
+  width: 373px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #FF6473;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 21px;
+  cursor: pointer;
+}
+
+.bag-panel .product-item {
+  display: flex;
+  align-items: center;
+}
+
+.bag-panel .size {
+  color: #818181;
+  margin: 12px 0;
+}
+
+.num-input {
+  display: flex;
+  align-items: center;
+  width: 86px;
+  height: 32px;
+  border: 1px solid #9CA3AF;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.num-input input {
+  width: 50px;
+  padding: 0 8px;
+  border: none;
+  text-align: center;
+}
+
+.bag-panel .num-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
