@@ -12,5 +12,5 @@ function closeAllPanel() {
 }
 
 function toProductPage() {
-  window.location.href = "/mobile/productDetails.html";
+  window.location.href = "/selfawear/mobile/productDetails.html";
 }

@@ -1,3 +1,3 @@
 function toHomePage() {
-  window.location.href = "/mobile/index.html";
+  window.location.href = "/selfawear/mobile/index.html";
 }

@@ -59,11 +59,11 @@ bagPanelElement.innerHTML = bagPanel;
 bodyElement.appendChild(bagPanelElement);
 
 function toSearchPage() {
-  window.location.href = '/search.html'
+  window.location.href = '/selfawear/search.html'
 }
 
 function toIndexPage() {
-  window.location.href = '/index.html'
+  window.location.href = '/selfawear/index.html'
 }
 
 function showBagPanel() {
@@ -77,7 +77,7 @@ function hideBagPanel() {
 }
 
 function toPayment() {
-  window.location.href = '/payment.html'
+  window.location.href = '/selfawear/payment.html'
 }
 // Use matchMedia to determine the width
 const mobileMediaQuery = window.matchMedia('(max-width: 768px)');
@@ -99,11 +99,11 @@ if (mobileMediaQuery.matches) {
 function toMobilePage() {
   const pathArray = window.location.pathname.split('/');
   const currentPage = pathArray[pathArray.length - 1];
-  window.location.href = `/mobile/${currentPage}`;
+  window.location.href = `/selfawear/mobile/${currentPage}`;
 }
 
 function toPCPage() {
   const pathArray = window.location.pathname.split('/');
   const currentPage = pathArray[pathArray.length - 1];
-  window.location.href = `/${currentPage}`;
+  window.location.href = `/selfawear/${currentPage}`;
 }

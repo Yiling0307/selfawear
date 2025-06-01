@@ -1,3 +1,3 @@
 function toProductPage() {
-  window.location.href = '/productDetails.html';
+  window.location.href = '/selfawear/productDetails.html';
 }

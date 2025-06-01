@@ -1,3 +1,3 @@
 function toSuccessPage() {
-  window.location.href = "/mobile/success.html";
+  window.location.href = "/selfawear/mobile/success.html";
 }

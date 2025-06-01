@@ -23,7 +23,7 @@ if (!mobileMediaQuery.matches) {
 function toPCPage() {
   const pathArray = window.location.pathname.split('/');
   const currentPage = pathArray[pathArray.length - 1];
-  window.location.href = `/${currentPage}`;
+  window.location.href = `/selfawear/${currentPage}`;
 }
 
 let bagPanel = `
@@ -73,5 +73,5 @@ function hideBagPanel() {
 }
 
 function toPayment() {
-  window.location.href = '/payment.html'
+  window.location.href = '/selfawear/payment.html'
 }
