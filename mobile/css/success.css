@@ -10,11 +10,33 @@ main {
 }
 
 .card {
-  margin: 82px auto 51px;
+  margin: 22px 20px 34px;
   display: flex;
-  width: 591px;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(75, 85, 99, 0.06);
+}
+
+.barimg-wrap {
+  width: 100%;
+  padding: 0 20px;
+  margin: 70px 0 100px;
+}
+
+.barimg {
+  width: 100%;
+}
+
+.conitune-button-wrap {
+  padding: 0 20px;
+}
+
+.conitune-button {
+  background-color: #FF6767;
+  width: 100%;
+  height: 46px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
 }
