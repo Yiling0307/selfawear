@@ -18,6 +18,11 @@ hr {
   justify-content: center;
 }
 
+.flex-items-center {
+  display: flex;
+  align-items: center;
+}
+
 .flex-space-between {
   display: flex;
   align-items: center;
@@ -143,7 +148,7 @@ hr {
 }
 
 .fs12 {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .fs14 {
@@ -183,4 +188,8 @@ body {
   background-color: #fff;
   color: #000000;
   padding-bottom: 24px;
+}
+
+.red {
+  color: #FA5C5C;
 }

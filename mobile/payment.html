@@ -16,67 +16,76 @@
   <header></header>
 
   <main>
-    <div class="delivery-card">
-      <div class="delivery-card-title">
-        <span>Delivery to</span>
-        <div class="change-button">Change</div>
+    <div class="detail-card">
+      <div class="flex-space-between">
+        <span class="fs14">Delivery to</span>
+        <div class="change-btn flex-center">Change</div>
       </div>
-      <div class="">
-        <span>Amy</span>
-        <img src="" alt="">
-        <span>(828) 555-0192</span>
+      <hr>
+      <div class="amy">
+        <span class="fs14 fw">Amy</span>
+        <span> (828) 555-0192</span>
       </div>
-      <div>458 Forest Ridge Drive  Asheville, NC 28801</div>
+      <div class="fs12">458 Forest Ridge Drive Asheville, NC 28801</div>
     </div>
 
     <div class="card">
-      <img src="./assets/success/cover.png" width="105px" height="127px" alt="">
-      <div style="padding-top: 32px;">
-        <div class="fs20 fw">Spread Kindness Pocket T-Shirt Black</div>
-        <div style="margin: 29px 0 22px;">
-          <span class="fw fs20">$147.00</span>
-          <span class="gray text-">$245.00</span>
+      <div class="flex-space-between">
+        <img src="./assets/payment/cover.png" width="105px" height="127px" alt="">
+        <div class="card-right">
+          <div class="fs14 fw">Spread Kindness Pocket T-Shirt Black</div>
+          <div style="margin: 9px 0 7px;">
+            <span class="fs14">$147.00</span>
+            <span class="gray text-">$245.00</span>
+          </div>
+          <div>
+            <span class="fs12">Size: S</span>
+            <span class="ml20">Qty: 1</span>
+          </div>
         </div>
-        <div>
-          <span>Size: S</span>
-          <span class="ml20">Qty: 1</span>
-        </div>
+      </div>
+      <hr>
+      <div class="flex delete-btn">
+        <img src="./assets/payment/delete.png" width="20px" alt="">
+        <div class="fs12 red ml8">REMOVE</div>
       </div>
     </div>
 
-    <div>Price Detail</div>
-    <div>
-      <span>Total Price</span>
-      <span>$146.00</span>
-    </div>
-    <div>
-      <span>Discount</span>
-      <span>$98.00</span>
-    </div>
-    <div>
-      <span>Delivery fee</span>
-      <span>$0.00</span>
-    </div>
+    <div class="bottom-wrap">
+      <div class="fw fs16 mb16">Price Detail</div>
+      <div class="fs14 mb16 flex-space-between gray">
+        <span>Total Price</span>
+        <span>$146.00</span>
+      </div>
+      <div class="fs14 mb16 flex-space-between gray">
+        <span>Discount</span>
+        <span>$98.00</span>
+      </div>
+      <div class="fs14 mb16 flex-space-between gray">
+        <span>Delivery fee</span>
+        <span>$0.00</span>
+      </div>
 
-    <div>Payment Method</div>
-    <div>
-      <div></div>
-      <img src="" alt="">
-      <span>Credit Card</span>
-    </div>
-    <div>
-      <div></div>
-      <img src="" alt="">
+      <div class="fw fs16 mb16">Payment Method</div>
+      <div class="flex">
+        <input type="radio" name="radio" id="radio">
+        <img class="ml16" width="20px" src="./assets/payment/Frame (10).png" alt="">
+        <span>Credit Card</span>
+      </div>
+      <div class="flex-items-center">
+        <input type="radio" name="radio" id="radio">
+        <img class="ml16" width="44px" src="./assets/payment/Frame (9).png" alt="">
+      </div>
     </div>
 
   </main>
 
-  <div class="pay-detail">
-    <div>
-      <div>Total Amount</div>
-      <div>$147.00</div>
+  <div class="pay-detail flex-space-between">
+    <div class="">
+      <div class="fw fs14">Total Amount</div>
+      <div class="fw fs20">$147.00</div>
     </div>
-    <div class="pay-button" onclick="toSuccessPage();">Pay</div>
+    <div class="pay-button flex-center" onclick="toSuccessPage()">Pay</div>
   </div>
 
   <script src="./js/header.js"></script>

@@ -1,3 +1,74 @@
 main {
   padding: 44px 0 70px;
 }
+
+.detail-card {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 0 20px;
+}
+
+.detail-card hr {
+  margin: 17px 0 20px;
+}
+
+.detail-card .amy {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px;
+}
+
+.change-btn {
+  width: 93px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #F59E0B;
+  background-color: #fff;
+  color: #F59E0B;
+  font-size: 14px;
+}
+
+
+.card {
+  margin: 20px;
+  border: 1px solid #F3F3F3;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(75, 85, 99, 0.059);
+  padding: 16px;
+}
+
+.card-right {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.delete-btn {
+  align-items: center;
+  margin-top: 16px;
+}
+
+.bottom-wrap {
+  padding: 20px;
+}
+
+.pay-detail {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  height: 92px;
+  border-top: 1px solid #F3F3F3;
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+.pay-button {
+  background-color: #FF6767;
+  width: 166px;
+  height: 46px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
